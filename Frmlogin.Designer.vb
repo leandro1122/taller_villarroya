@@ -26,7 +26,6 @@ Partial Class Frmlogin
         Me.txt_usuario = New System.Windows.Forms.TextBox()
         Me.txt_password = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -76,18 +75,6 @@ Partial Class Frmlogin
         Me.Label2.TabIndex = 6
         Me.Label2.Text = "Contraseña"
         '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Font = New System.Drawing.Font("Bookman Old Style", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.Gray
-        Me.Label3.Location = New System.Drawing.Point(40, 104)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(68, 19)
-        Me.Label3.TabIndex = 7
-        Me.Label3.Text = "Usuario"
-        '
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
@@ -128,7 +115,6 @@ Partial Class Frmlogin
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.CheckBox1)
-        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.txt_password)
         Me.Controls.Add(Me.txt_usuario)
@@ -146,7 +132,6 @@ Partial Class Frmlogin
     Friend WithEvents txt_usuario As TextBox
     Friend WithEvents txt_password As TextBox
     Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
     Friend WithEvents CheckBox1 As CheckBox
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
